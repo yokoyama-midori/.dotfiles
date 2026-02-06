@@ -4,7 +4,11 @@ return {
   opts = {
     highlight = {
       enable = true,
-      disable = { "c" },
+      disable = { "c", "cpp" },
+    },
+    indent = {
+      enable = true,
+      disable = { "c", "cpp" },
     },
   },
 }
