@@ -83,4 +83,11 @@ return {
     end,
     desc = "Debug: terminate (デバッグの停止)",
   },
+  {
+    "<space>dw",
+    function()
+      require("dapui").elements.watches.add()
+    end,
+    desc = "Debug: add watch",
+  },
 }
